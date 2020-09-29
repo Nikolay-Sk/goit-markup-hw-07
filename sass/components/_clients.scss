@@ -1,0 +1,174 @@
+/* client css */
+
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client {
+  margin: 0;
+  padding: 0;
+}
+.client__element {
+  display: block;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client__element1 {
+  height: 90px;
+}
+
+.client__element:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client__element:hover,
+.client__element1:focus {
+  border: 1px solid $accent-color;
+}
+
+/* client1 list css*/
+
+.client__element:hover .client1-icon,
+.client__element1:focus .client1-icon {
+  fill: $accent-color;
+}
+
+.client1 {
+  display: block;
+  padding-top: 20px;
+  padding-left: 63px;
+}
+
+.client1-icon {
+  width: 45px;
+  height: 50px;
+  fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* client2 list css*/
+
+.client__element:hover .client2-icon,
+.client__element1:focus .client2-icon {
+  fill: $accent-color;
+}
+
+.client2 {
+  display: block;
+  padding-top: 19px;
+  padding-left: 65px;
+}
+
+.client2-icon {
+  width: 40px;
+  height: 52px;
+  fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* client3 list css*/
+
+.client__element:hover .client3-icon,
+.client__element1:focus .client3-icon {
+  fill: $accent-color;
+}
+
+.client3 {
+  display: block;
+  padding-top: 24px;
+  padding-left: 65px;
+}
+
+.client3-icon {
+  width: 41px;
+  height: 43px;
+  fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* client4 list css*/
+
+.client__element:hover .client4-icon,
+.client__element1:focus .client4-icon {
+  fill: $accent-color;
+}
+
+.client4 {
+  display: block;
+  padding-top: 24px;
+  padding-left: 45px;
+}
+
+.client4-icon {
+  width: 80px;
+  height: 42px;
+  fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* client5 list css*/
+
+.client__element:hover .client5-icon,
+.client__element1:focus .client5-icon {
+  fill: $accent-color;
+}
+
+.client5 {
+  display: block;
+  padding-top: 22px;
+  padding-left: 56px;
+}
+
+.client5-icon {
+  width: 59px;
+  height: 47px;
+  fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* client6 list css*/
+
+.client__element:hover .client6-icon,
+.client__element1:focus .client6-icon {
+  fill: $accent-color;
+}
+
+.client6 {
+  display: block;
+  padding-top: 22px;
+  padding-left: 41px;
+}
+
+.client6-icon {
+  width: 88px;
+  height: 45px;
+  fill: #afb1b8;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

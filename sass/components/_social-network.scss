@@ -1,0 +1,79 @@
+.social-network {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-network__element {
+  padding-top: 12px;
+  padding-left: 12px;
+  display: block;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-network__circle:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-network__icon {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  fill: #afb1b8;
+
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-network__element:hover,
+.social-network__element:focus {
+  background-color: $accent-color;
+}
+
+.social-network__element:hover .social-network__icon,
+.social-network__element:focus .social-network__icon {
+  background-color: $accent-color;
+  fill: $white-color;
+}
+
+.social-network-two {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.social-network__element-two {
+  padding-top: 12px;
+  padding-left: 12px;
+  display: block;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-network__icon-two {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  fill: $white-color;
+}
+
+.social-network__element-two:hover,
+.social-network__element-two:focus {
+  background-color: $accent-color;
+}
