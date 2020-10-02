@@ -15,13 +15,13 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: $white-color;
   border-radius: 50%;
-}
 
-.btn-close__icon {
-  width: 18px;
-  height: 18px;
-}
+  &__icon {
+    width: 18px;
+    height: 18px;
 
-.btn-close__icon:hover {
-  fill: $accent-color;
+    &:hover {
+      fill: $accent-color;
+    }
+  }
 }

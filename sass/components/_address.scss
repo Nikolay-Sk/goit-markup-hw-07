@@ -1,39 +1,38 @@
 .address {
   align-items: center;
-}
 
-.address__header {
-  padding: 0;
-  color: $primary-text-color;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  font-style: normal;
+  &__header {
+    padding: 0;
+    color: $primary-text-color;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    font-style: normal;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-.address__header:not(:last-child) {
-  margin-right: 30px;
-}
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+    &:hover .envelope-icon,
+    &:focus .envelope-icon {
+      fill: $accent-color;
+    }
 
-.address__header:hover,
-.address__header:focus {
-  color: $accent-color;
-}
-.address__header:hover .envelope-icon,
-.address__header:focus .envelope-icon {
-  fill: $accent-color;
-}
-
-.address__header:hover .smartphone-icon,
-.address__header:focus .smartphone-icon {
-  fill: $accent-color;
+    &:hover .smartphone-icon,
+    &:focus .smartphone-icon {
+      fill: $accent-color;
+    }
+  }
 }
 
 .envelope-icon {

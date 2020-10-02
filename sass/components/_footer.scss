@@ -18,12 +18,14 @@
 
 .footer-section {
   margin-right: auto;
+
+  &-box {
+    width: 301px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
-.footer-section-box {
-  width: 301px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
+
 .footer-logo {
   display: block;
   margin-top: 0;
@@ -31,19 +33,20 @@
 
   color: $accent-color;
   text-decoration: none;
-}
-.footer-logo-title {
-  margin-top: 0;
-  margin-bottom: 0;
 
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-.footer-logo-secondary {
-  color: $white-color;
+  &-title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+  }
+  &-secondary {
+    color: $white-color;
+  }
 }
 
 .address-text {
@@ -73,15 +76,16 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.address-footer:not(:last-child) {
-  margin-top: 0;
-  margin-bottom: 9px;
-}
 
-.address-footer:hover,
-.address-footer:focus {
-  color: $accent-color;
+  &:not(:last-child) {
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .form-footer {

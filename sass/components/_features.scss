@@ -5,66 +5,66 @@
 .feature {
   margin: 0;
   padding: 0;
-}
 
-.feature__element {
-  display: block;
-  width: calc((100%-30 * 3) / 4);
-}
+  &__element {
+    display: block;
+    width: calc((100%-30 * 3) / 4);
 
-.feature__element:not(:last-child) {
-  margin-right: 30px;
-}
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
 
-.feature__element::before {
-  margin-bottom: 30px;
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #f5f4fa;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+    &::before {
+      margin-bottom: 30px;
+      display: block;
+      content: "";
+      width: 270px;
+      height: 120px;
+      border-radius: 4px;
+      background-color: #f5f4fa;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
 
-.feature__element1::before {
-  background-image: url(../images/antenna.png);
-}
+    &1::before {
+      background-image: url(../images/antenna.png);
+    }
 
-.feature__element2::before {
-  background-image: url(../images/clock.png);
-}
+    &2::before {
+      background-image: url(../images/clock.png);
+    }
 
-.feature__element3::before {
-  background-image: url(../images/diagram.png);
-}
+    &3::before {
+      background-image: url(../images/diagram.png);
+    }
 
-.feature__element4::before {
-  background-image: url(../images/astronaut.png);
-}
+    &4::before {
+      background-image: url(../images/astronaut.png);
+    }
+  }
 
-.feature__title {
-  padding-top: 0;
-  padding-bottom: 10px;
-  margin-top: 0;
-  margin-bottom: 0;
+  &__title {
+    padding-top: 0;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
 
-  color: $title-text-color;
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+    color: $title-text-color;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
 
-.feature__text {
-  margin: 0;
+  &__text {
+    margin: 0;
 
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+  }
 }
